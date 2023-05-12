@@ -213,7 +213,7 @@ $(document).ready(function () {
         var data = $(this).serialize();
 		
 		console.log(data);
-        $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
+        $('#alert-wrapper').html(alert_markup('info', '<strong>Attendi un attimo!</strong> Stiamo salvando le tue informazioni.'));
         if (MD5($('#invite_code').val()) !== 'f99ca4594747413babd7abac84736eec') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Spiacente!</strong> Il tuo codice invito non è corretto.'));
         } else {
